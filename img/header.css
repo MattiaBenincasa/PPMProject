@@ -1,0 +1,14 @@
+
+.header-container{
+    width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+
+@media (min-width: 990px) {
+    .header-container{
+        max-width: 990px;
+    }
+}
