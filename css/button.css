@@ -41,3 +41,23 @@
 .red-button:hover{
     background-color: #5d171a;
 }
+
+.blue-nav-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding: 6px 8px;
+    border: transparent;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition-duration: 250ms;
+}
+
+.blue-nav-button:hover{
+    background-color: #204075;
+}
