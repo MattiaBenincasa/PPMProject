@@ -1,12 +1,33 @@
 
 .social-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid #e6e6e6;
     padding-left: 8px;
     padding-right:8px;
 }
 
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-logo{
+    margin-left: 16px;
+}
+
 .logo-bar{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.account-container{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
