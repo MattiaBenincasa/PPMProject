@@ -43,19 +43,18 @@
 }
 
 .blue-nav-button{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
     background-color: transparent;
     padding: 6px 8px;
     border: transparent;
+    transition-duration: 250ms;
     color: #ffffff;
     font-weight: 500;
     font-size: 0.875rem;
     line-height: 1.75;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    transition-duration: 250ms;
 }
 
 .blue-nav-button:hover{
