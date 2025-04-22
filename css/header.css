@@ -35,9 +35,6 @@
 }
 
 .primary-navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 4px 8px;
     background-color: #063A74;
     vertical-align: middle;
@@ -59,16 +56,11 @@
     font-weight: lighter;
 }
 
-.editions{
+.editions-list{
+    list-style-type: none;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.navbar-items{
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -78,4 +70,18 @@
     line-height: 1.8;
     text-decoration: none;
     color: #000000;
+}
+
+.list-primary-navbar{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inner-list-navbar-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
