@@ -1,0 +1,34 @@
+
+.header-news-img{
+    text-decoration: none;
+    margin-top: 8px;
+    color: black;
+}
+
+.topic-news{
+    color: #862225;
+    text-align: left;
+    font-weight: bold;
+}
+
+.title-news{
+    margin-top: 4px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.author{
+    margin-top: 4px;
+    font-weight: bold;
+}
+
+.article-list{
+    list-style-type: '\25D7';
+    margin-left: 10px;
+    color: #063A74;
+}
+
+.article-text-only{
+    margin-top: 8px;
+    font-weight: 100;
+}

@@ -7,3 +7,30 @@
     padding: 8px;
 }
 
+.primo-piano-container{
+    margin-top: 4px;
+}
+
+.section-title{
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+.primo-piano-grid-layout{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    margin-top: 4px;
+}
+
+.main-news{
+    grid-row: span 2;
+    grid-column: span 2;
+    padding-right: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 12px;
+}
