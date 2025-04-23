@@ -34,3 +34,12 @@
     justify-content: flex-start;
     padding-bottom: 12px;
 }
+
+.side-layout{
+    grid-row: span 2;
+    grid-column: span 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 6px;
+}
