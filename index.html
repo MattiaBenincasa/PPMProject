@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/video-container.css">
     <link rel="stylesheet" href="css/article-style.css">
+    <link rel="stylesheet" href="css/news-box.css">
+    <link rel="stylesheet" href="css/text-box.css">
 </head>
 <body>
 <header class="main-container">
@@ -113,21 +115,21 @@
             </article>
         </div>
     </section>
-    <section class="primo-piano-container">
+    <section class="section-box">
         <h2 class="section-title">Primo piano</h2>
         <div class="primo-piano-grid-layout">
-            <article class="main-news">
+            <article class="box-large-news">
                 <article>
                     <a href="#">
                         <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="title-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
                 </article>
-                <ul class="article-list">
+                <ul class="related-news-list">
                     <li>
                         <article class="article-text-only">
                             <a href="#"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1></a>
@@ -141,18 +143,18 @@
                 </ul>
             </article>
             <div class="side-layout">
-                <article class="side-news">
+                <article class="box-small-news-right">
                     <article>
                         <a href="#">
                             <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                             <hgroup class="header-news-img">
                                 <h1 class="topic-news">Lorem impsum</h1>
-                                <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                             </hgroup>
                             <footer class="author">di Nome Cognome</footer>
                         </a>
                     </article>
-                    <ul class="article-list">
+                    <ul class="related-news-list">
                         <li>
                             <article class="article-text-only">
                                 <a href="#"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -167,121 +169,123 @@
                         </li>
                     </ul>
                 </article>
-                <article class="side-news">
+                <article class="box-news-text-only">
                     <a href="#">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
                 </article>
-                <article class="final-side-news">
+                <article class="box-news-text-only">
                     <a href="#">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
                 </article>
             </div>
-            <article class="bottom-news-left-layout">
-                <a href="#">
-                    <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
-                    <hgroup class="header-news-img">
-                        <h1 class="topic-news">Lorem impsum</h1>
-                        <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                    </hgroup>
-                    <footer class="author">di Nome Cognome</footer>
-                </a>
-                <ul class="article-list">
-                    <li>
-                        <article class="article-text-only">
-                            <a href="#"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Mauris euismod urna placerat, aliquam metus at, tincidunt magna.</h1></a>
-                        </article>
-                    </li>
-                    <li>
-                        <article class="article-text-only">
-                            <a href="#"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Mauris euismod urna placerat, aliquam metus at, tincidunt magna.</h1></a>
-                        </article>
-                    </li>
-                </ul>
-            </article>
-            <article class="bottom-news-middle-layout">
-                <a href="#">
-                    <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
-                    <hgroup class="header-news-img">
-                        <h1 class="topic-news">Lorem impsum</h1>
-                        <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                    </hgroup>
-                    <footer class="author">di Nome Cognome</footer>
-                </a>
-            </article>
-            <article class="bottom-news-right-layout">
-                <a href="#">
-                    <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
-                    <hgroup class="header-news-img">
-                        <h1 class="topic-news">Lorem impsum</h1>
-                        <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                    </hgroup>
-                    <footer class="author">di Nome Cognome</footer>
-                </a>
-            </article>
+            <div class="bottom-layout">
+                <article class="box-small-news-left">
+                    <a href="#">
+                        <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
+                        <hgroup class="header-news-img">
+                            <h1 class="topic-news">Lorem impsum</h1>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        </hgroup>
+                        <footer class="author">di Nome Cognome</footer>
+                    </a>
+                    <ul class="related-news-list">
+                        <li>
+                            <article class="article-text-only">
+                                <a href="#"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Mauris euismod urna placerat, aliquam metus at, tincidunt magna.</h1></a>
+                            </article>
+                        </li>
+                        <li>
+                            <article class="article-text-only">
+                                <a href="#"><h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Mauris euismod urna placerat, aliquam metus at, tincidunt magna.</h1></a>
+                            </article>
+                        </li>
+                    </ul>
+                </article>
+                <article class="box-small-news-middle">
+                    <a href="#">
+                        <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
+                        <hgroup class="header-news-img">
+                            <h1 class="topic-news">Lorem impsum</h1>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        </hgroup>
+                        <footer class="author">di Nome Cognome</footer>
+                    </a>
+                </article>
+                <article class="box-small-news-right">
+                    <a href="#">
+                        <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
+                        <hgroup class="header-news-img">
+                            <h1 class="topic-news">Lorem impsum</h1>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                        </hgroup>
+                        <footer class="author">di Nome Cognome</footer>
+                    </a>
+                </article>
+            </div>
         </div>
     </section>
     <div class="two-section-container">
         <section class="in-evidenza-container">
             <h2 class="section-title">In evidenza</h2>
             <div class="in-evidenza-grid-layout">
-                <article class="big-news">
+                <article class="box-large-news">
                     <a href="#">
                         <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="title-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
                 </article>
-                <article class="bottom-news-left-layout">
+                <article class="box-small-news-left">
                     <a href="#">
                         <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
                 </article>
-                <article class="bottom-news-right-layout">
+                <article class="box-small-news-right">
                     <a href="#">
                         <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
                 </article>
-                <article class="bottom-news-left-layout">
+                <article class="box-small-news-left">
                     <a href="#">
                         <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
                 </article>
-                <article class="bottom-news-right-layout">
+                <article class="box-small-news-right">
                     <a href="#">
                         <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                         <hgroup class="header-news-img">
                             <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                         </hgroup>
                         <footer class="author">di Nome Cognome</footer>
                     </a>
@@ -300,7 +304,7 @@
                             <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                             <hgroup class="header-news-img">
                                 <h1 class="topic-news">Lorem impsum</h1>
-                                <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                             </hgroup>
                             <footer class="author">di Nome Cognome</footer>
                         </a>
@@ -310,7 +314,7 @@
                             <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                             <hgroup class="header-news-img">
                                 <h1 class="topic-news">Lorem impsum</h1>
-                                <h2 class="side-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
                             </hgroup>
                             <footer class="author">di Nome Cognome</footer>
                         </a>
