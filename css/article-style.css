@@ -46,8 +46,10 @@
     font-weight: 100;
 }
 
-.bottom-news-middle-layout{
+.entertainment-article{
     padding-bottom: 12px;
     padding-right: 3px;
     padding-left: 3px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #CBCFD3;
 }
