@@ -85,3 +85,38 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 899px) {
+    .primary-navbar{
+        display: none;
+    }
+
+    .secondary-navbar{
+        display: none;
+    }
+
+    .social{
+        display: none;
+    }
+
+    .remove-in-mobile{
+        display: none;
+    }
+
+    .social-bar{
+        background-color: #862225;
+        height: 50px;
+    }
+
+    .logo-bar{
+        border-bottom: 1px solid #CBCFD3;
+        height: 64px;
+        background: #ffffff;
+    }
+
+    .sticky-header{
+        position: sticky;
+        top: -50px;
+    }
+
+}

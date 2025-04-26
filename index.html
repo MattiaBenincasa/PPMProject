@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PPMProject</title>
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/header.css">
@@ -13,10 +14,11 @@
     <link rel="stylesheet" href="css/text-box.css">
 </head>
 <body>
-<header class="main-container">
-    <div class="social-bar">
-        <button class="light-button">
-            <img class="left-img" src="img/icons/envelope-solid.svg" alt="letter" width="18px" height="18px">Iscriviti alle Newsletter
+<header class="sticky-header main-container">
+    <div id="social-bar" class="social-bar">
+        <button class="white-text no-bg-mobile light-button">
+            <img class="left-img remove-in-mobile" src="img/icons/envelope-solid.svg" alt="letter" width="18px" height="18px">
+            Iscriviti alle Newsletter
         </button>
         <div class="social">
             <a href="#">
@@ -33,23 +35,27 @@
             </a>
         </div>
     </div>
-    <div class="logo-bar">
-        <button class="light-button">
-            <img class="left-img" src="img/icons/newspaper-solid.svg" alt="newspaper" width="18px" height="18px">Sfoglia il quotidiano
-        </button>
-        <h1>LOGO</h1>
-        <div class="account-container">
+    <div id="logo-bar" class="logo-bar">
+        <div class="remove-in-mobile">
             <button class="light-button">
-                    <img class="left-img" src="img/icons/user-solid.svg" alt="user" width="18px" height="18px">ACCEDI
+                <img class="left-img" src="img/icons/newspaper-solid.svg" alt="newspaper" width="18px" height="18px">Sfoglia il quotidiano
             </button>
-            <button class="red-button">ABBONATI</button>
+        </div>
+        <h1>LOGO</h1>
+        <div id="account-bar" class="account-container">
+            <button class="light-button">
+                <img class="left-img" src="img/icons/user-solid.svg" alt="user" width="18px" height="18px">ACCEDI
+            </button>
+            <button id="sub-button" class="red-button">ABBONATI</button>
         </div>
     </div>
     <nav class="primary-navbar">
         <ul class="list-primary-navbar">
-            <li>
-                <button class="blue-nav-button">
-                    <img class="left-img" src="img/icons/bars-solid.svg" alt="menu" height="18" width="18">MENU
+            <li id="primary-nav-list">
+                <button id="menu-button" class="bg-light black-text blue-nav-button">
+                    <svg class="img-black menu-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+                    MENU
                 </button>
             </li>
             <li>
@@ -463,5 +469,7 @@
         </div>
     </section>
 </main>
+
+<script src="js/headerButtons.js"></script>
 </body>
 </html>
