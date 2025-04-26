@@ -1,11 +1,11 @@
 
 .header-news-img{
     margin-top: 8px;
+    text-align: inherit;
 }
 
 .topic-news{
     color: #862225;
-    text-align: left;
     font-weight: bold;
     font-size: 1.15rem;
 }
@@ -32,6 +32,7 @@
     margin-top: 4px;
     font-size: 0.875rem;
     font-weight: bold;
+    text-align: inherit;
 }
 
 .related-news-list li{
@@ -52,4 +53,18 @@
     padding-left: 3px;
     margin-bottom: 16px;
     border-bottom: 1px solid #CBCFD3;
+}
+
+.main-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+@media (max-width: 899px) {
+
+    .main-article{
+        justify-content: center;
+        text-align: center;
+    }
 }
