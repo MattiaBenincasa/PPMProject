@@ -10,6 +10,22 @@
     border-bottom: 1px solid #8c8e91;
 }
 
+.red-video-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #862225;
+    margin-top:20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.white-video-header{
+    font-size: 1.5rem;
+}
+
 .header-video{
     padding-top: 8px;
     padding-bottom: 8px;
