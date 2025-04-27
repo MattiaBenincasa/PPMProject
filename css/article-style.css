@@ -61,6 +61,24 @@
     justify-content: flex-start;
 }
 
+.bordered-box-title{
+    text-align: right;
+    color: #063A74;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 8px;
+    border-bottom: 1px solid #CBCFD3;
+
+}
+
+.bordered-box-news{
+    padding: 6px;
+    margin: 5px;
+    border-bottom: 1px solid #CBCFD3;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 @media (max-width: 899px) {
 
     .main-article{
@@ -71,5 +89,6 @@
     .entertainment-article{
         padding: 16px;
     }
+
 
 }

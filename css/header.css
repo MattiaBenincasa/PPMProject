@@ -49,6 +49,25 @@
     font-family: 'LibreFranklin', serif;
 }
 
+.header-speciale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    font-family: 'LibreFranklin', serif;
+    background-color: #063A74;
+    color: #ffffff;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.opacity{
+    opacity: 66%;
+}
+
 .header-editions{
     text-align: center;
     font-size: medium;
@@ -116,6 +135,7 @@
 
     .sticky-header{
         position: sticky;
+        z-index: 2;
         top: -50px;
     }
 

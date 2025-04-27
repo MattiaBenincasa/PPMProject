@@ -32,6 +32,11 @@
     border-top: 1px solid #CBCFD3;
 }
 
+.bordered-box{
+    border: 1px solid #CBCFD3;
+    margin: 15px;
+}
+
 @media (max-width: 899px) {
 
     .box-large-news{
@@ -43,5 +48,11 @@
 
     .box-small-news-right, .box-small-news-left, .box-small-news-middle, .box-news-text-only{
         padding: 16px;
+    }
+
+    .bordered-box{
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
     }
 }
