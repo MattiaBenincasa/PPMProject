@@ -248,10 +248,10 @@
         </div>
     </section>
     <div class="two-section-container">
-        <section class="in-evidenza-container">
+        <section>
             <h2 class="section-title">In evidenza</h2>
             <div class="grid-layout-4x2">
-                <article class="box-large-news">
+                <article class="box-large-news main-article">
                     <a href="#">
                         <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                         <hgroup class="header-news-img">
@@ -356,7 +356,7 @@
     <section style="border-bottom: none" class="section-box">
         <h1 class="section-title">Sport</h1>
         <div class="grid-layout-4x4">
-            <article class="box-3x2">
+            <article class="box-3x2 main-article">
                 <a href="#">
                     <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                     <hgroup class="header-news-img">
@@ -434,7 +434,7 @@
     <section class="section-box">
         <h1 class="section-title">Italia-mondo</h1>
         <div class="grid-layout-3x3">
-            <article class="box-large-news">
+            <article class="box-large-news main-article">
                 <a href="#">
                     <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
                     <hgroup class="header-news-img">
@@ -447,21 +447,30 @@
             <div class="side-layout">
                 <article class="box-small-news-right">
                     <a href="#">
-                        <img src="img/placeholders/placeholder-news.jpg" alt="main-news" width="100%" height="auto">
-                        <hgroup class="header-news-img">
-                            <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                        </hgroup>
-                        <footer class="author">di Nome Cognome</footer>
+                        <div class="row-layout-mobile">
+                            <img class="img-column-to-row" src="img/placeholders/placeholder-news.jpg" alt="main-news">
+                            <div>
+                                <hgroup class="header-news-img">
+                                    <h1 class="topic-news">Lorem impsum</h1>
+                                    <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                </hgroup>
+                                <footer class="author">di Nome Cognome</footer>
+                            </div>
+                        </div>
                     </a>
                 </article>
                 <article class="box-news-text-only">
                     <a href="#">
-                        <hgroup class="header-news-img">
-                            <h1 class="topic-news">Lorem impsum</h1>
-                            <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
-                        </hgroup>
-                        <footer class="author">di Nome Cognome</footer>
+                        <div class="row-layout-mobile">
+                            <img class="appear-in-mobile img-column-to-row" src="img/placeholders/placeholder-news.jpg" alt="main-news">
+                            <div>
+                                <hgroup class="header-news-img">
+                                    <h1 class="topic-news">Lorem impsum</h1>
+                                    <h2 class="small-title-news">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+                                </hgroup>
+                                <footer class="author">di Nome Cognome</footer>
+                            </div>
+                        </div>
                     </a>
                 </article>
             </div>

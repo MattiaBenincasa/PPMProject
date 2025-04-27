@@ -151,6 +151,21 @@
     padding-bottom: 12px;
 }
 
+.appear-in-mobile {
+    display: none;
+}
+
+.row-layout-mobile{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-column-to-row{
+    width: 100%;
+    height: auto;
+    margin-right: 0px;
+}
+
 @media (max-width: 899px) {
 
     .body-layout{
@@ -158,7 +173,7 @@
         padding-left: 0;
     }
 
-    .grid-layout-3x3{
+    .grid-layout-3x3, .grid-layout-4x2, .grid-layout-4x4{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
@@ -170,4 +185,35 @@
         align-items: center;
     }
 
+    .two-section-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .entertainment-news, .column-layout{
+        margin: 0;
+    }
+
+    .box-3x2{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+
+    .row-layout div{
+        margin-left: 8px;
+    }
+
+    .appear-in-mobile{
+        display: block;
+    }
+
+    .row-layout-mobile{
+        flex-direction: row;
+    }
+
+    .img-column-to-row{
+        width: 50%;
+        margin-right: 8px;
+    }
 }

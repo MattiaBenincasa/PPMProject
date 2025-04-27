@@ -67,4 +67,9 @@
         justify-content: center;
         text-align: center;
     }
+
+    .entertainment-article{
+        padding: 16px;
+    }
+
 }

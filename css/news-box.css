@@ -40,4 +40,8 @@
         padding-left: 0;
         padding-right: 0;
     }
+
+    .box-small-news-right, .box-small-news-left, .box-small-news-middle, .box-news-text-only{
+        padding: 16px;
+    }
 }
