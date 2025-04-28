@@ -34,7 +34,7 @@
     background-color: white;
 }
 
-.news-slider, .video-container li button {
+.news-slider li button {
     font-size: 0;
     background-color: #C1CEDC;
     border: none;
@@ -44,6 +44,20 @@
     transition: background-color 0.3s ease;
 }
 
-.news-slider, .video-container li.slick-active button{
+.news-slider li.slick-active button{
+    background-color: #063A74;
+}
+
+.video-container li button {
+    font-size: 0;
+    background-color: #C1CEDC;
+    border: none;
+    width: 30px;
+    height: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.video-container li.slick-active button{
     background-color: #063A74;
 }
