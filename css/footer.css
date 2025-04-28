@@ -3,6 +3,13 @@
     padding: 8px;
 }
 
+.social-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
 .logo-footer{
     display: flex;
     justify-content: space-between;
@@ -19,6 +26,7 @@
 .link-list ul{
     margin-top: 10px;
     margin-bottom: 10px;
+    line-height: 1.5;
 }
 
 .link-list li{
@@ -30,7 +38,7 @@
 .blue-footer{
     font-family: 'LibreFranklin', serif;
     font-weight: lighter;
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.5;
     width: 100%;
     color: #CBCFD3;
@@ -43,8 +51,28 @@
 }
 
 @media (max-width: 899px) {
-    .logo-footer{
-        flex-direction: row;
+    .logo-footer {
+        flex-direction: column;
         justify-content: center;
     }
+
+    .link-list ul {
+        flex-direction: column;
+    }
+
+    .link-list{
+        border-bottom: transparent;
+    }
+
+    .footer-img{
+        display: block;
+        margin: auto;
+    }
+
+    .footer-paragraph{
+        margin-left: 8px;
+        margin-right: 8px;
+        text-align: center;
+    }
+
 }

@@ -17,8 +17,63 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
-<aside id="sidenav" class="sidenav">
+<aside id="sidenav" class="sidenav sidenav-layout">
     <button class="close-button" onclick="closeNav()">&times;</button>
+    <h1 class="logo-sidenav">LOGO</h1>
+    <button class="blue-nav-button">
+        <img class="left-img" src="img/icons/search-lens.svg" alt="search" height="18" width="18">CERCA
+    </button>
+    <nav class="nav-row-to-column">
+        <button class="blue-nav-button">
+            <svg class="icon-sidenav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48
+            64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+            Iscriviti alle Newsletter
+        </button>
+        <div class="account-container">
+            <button class="blue-nav-button">
+                <svg class="icon-sidenav" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8
+                368.2 304 269.7 304l-91.4 0z"/></svg>ACCEDI
+            </button>
+            <button class="red-button">ABBONATI</button>
+        </div>
+    </nav>
+    <section class="link-list-sidenav-container">
+        <h2>Sezione 1</h2>
+        <ul class="link-list-sidenav">
+            <li><a href="">Elemento 1</a></li>
+            <li><a href="">Elemento 2</a></li>
+            <li><a href="">Elemento 3</a></li>
+            <li><a href="">Elemento 4</a></li>
+            <li><a href="">Elemento 5</a></li>
+            <li><a href="">Elemento 6</a></li>
+        </ul>
+    </section>
+    <section class="link-list-sidenav-container">
+        <h2>Sezione 2</h2>
+        <ul class="link-list-sidenav">
+            <li><a href="">Elemento 1</a></li>
+            <li><a href="">Elemento 2</a></li>
+            <li><a href="">Elemento 3</a></li>
+            <li><a href="">Elemento 4</a></li>
+            <li><a href="">Elemento 5</a></li>
+            <li><a href="">Elemento 6</a></li>
+        </ul>
+    </section>
+    <section class="link-list-sidenav-container">
+        <h2>Sezione 3</h2>
+        <ul class="link-list-sidenav">
+            <li><a href="">Elemento 1</a></li>
+            <li><a href="">Elemento 2</a></li>
+            <li><a href="">Elemento 3</a></li>
+        </ul>
+    </section>
+    <section class="link-list-sidenav-container">
+        <h2>Sezione 4</h2>
+        <ul class="link-list-sidenav">
+            <li><a href="">Elemento 1</a></li>
+            <li><a href="">Elemento 2</a></li>
+        </ul>
+    </section>
 </aside>
 <header class="sticky-header main-container">
     <div id="overlay" class="overlay"></div>
@@ -94,8 +149,8 @@
         </ul>
     </nav>
 </header>
-<main class="main-container body-layout">
-    <section class="video-container">
+<main id="main-container" class="main-container body-layout">
+    <section id="video-container" class="video-container">
         <h2 class="header-video">I video del giorno</h2>
         <div class="video-slider">
             <article class="video-box">
@@ -128,7 +183,7 @@
             </article>
         </div>
     </section>
-    <section class="section-box">
+    <section id="primo-piano" class="section-box">
         <h2 class="section-title">Primo piano</h2>
         <div class="grid-layout-3x3">
             <article class="box-large-news">
@@ -249,7 +304,7 @@
             </div>
         </div>
     </section>
-    <div class="two-section-container">
+    <div id="in-evidenza" class="two-section-container">
         <section>
             <h2 class="section-title">In evidenza</h2>
             <div class="grid-layout-4x2">
@@ -763,10 +818,10 @@
     </section>
 </main>
 <footer>
-    <div class="footer-container main-container main-container">
+    <div class="footer-container main-container">
         <div class="logo-footer">
             <img src="img/placeholders/logo-footer.jpeg" alt="logo-footer">
-            <aside class="social">
+            <aside class="social-footer">
                 <a href="#">
                     <img src="img/icons/facebook-brands.svg" alt="facebook" width="24px" height="24px">
                 </a>
@@ -792,7 +847,7 @@
                 <li><a href="">Termini e condizioni</a></li>
             </ul>
         </nav>
-        <img src="img/placeholders/footer-img.jpeg" alt="footer-img">
+        <img class="footer-img" src="img/placeholders/footer-img.jpeg" alt="footer-img">
     </div>
     <div class="blue-footer">
         <div class="main-container">
