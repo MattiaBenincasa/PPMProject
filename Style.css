@@ -3,7 +3,9 @@
 
 @font-face {
     font-family: 'LibreFranklin';
-    src: url(/fonts/LibreFranklin-VariableFont_wght.ttf) format("truetype");
+    src: url('/fonts/LibreFranklin-VariableFont_wght.ttf') format("truetype"),
+         url('/fonts/LibreFranklin-Thin.woff') format('woff'),
+         url('/fonts/LibreFranklin-Thin.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
