@@ -190,10 +190,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .primary-title-speciale{
-    font-size: 3.2rem;
+    font-size: 2.1rem;
     font-family: serif;
     font-weight: bolder;
-    margin-top: 19px;
+    margin-top: 34px;
 }
 
 .opacity{
@@ -454,7 +454,7 @@ button{
     background-color: #063A74;
     height: 48px;
     font-weight: bolder;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .circle{
@@ -595,24 +595,18 @@ button{
 .topic-news{
     color: #862225;
     font-weight: bold;
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
 
 .small-title-news{
     margin-top: 4px;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-weight: bold;
 }
 
 .title-large{
     margin-top: 4px;
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.title-small{
-    margin-top: 4px;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -664,7 +658,7 @@ button{
     margin: 5px;
     border-bottom: 1px solid #CBCFD3;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 .box-large-news{
@@ -1025,4 +1019,32 @@ button{
         margin-right: 8px;
         text-align: center;
     }
+}
+
+@media (min-width: 600px) {
+
+    .primary-title-speciale{
+        font-size: 3.2rem;
+        margin-top: 19px;
+    }
+    .title-large{
+        font-size: 2rem;
+    }
+
+    .topic-news{
+        font-size: 1.15rem;
+    }
+
+    .entertainment-graphic-label{
+        font-size: 1.2rem;
+    }
+
+    .small-title-news{
+        font-size: 1.25rem;
+    }
+
+    .bordered-box-news{
+        font-size: 1.5rem;
+    }
+
 }
